@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace Inventario.DA.Database
+namespace POS.DataAcess.DataBase
 {
-    public class InventarioDBContext : IdentityDbContext<AplicationUser>
+    public class ApplicationDatabase : IdentityDbContext<AplicationUser>
     {
 
         public InventarioDBContext(DbContextOptions<InventarioDBContext> options)
